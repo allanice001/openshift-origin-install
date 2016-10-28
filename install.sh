@@ -25,7 +25,7 @@ systemctl restart docker
 mkdir /opt/openshift-origin-v1.2
 chmod 755 /opt /opt/openshift-origin-v1.2
 cd /opt/openshift-origin-v1.2
-wget https://github.com/openshift/origin/releases/download/v1.2.0-rc1/openshift-origin-server-v1.2.0-rc1-061e6d4-linux-64bit.tar.gz
+wget https://github.com/openshift/origin/releases/download/v1.3.0-alpha.3/openshift-origin-client-tools-v1.3.0-alpha.3-7998ae4-linux-64bit.tar.gz
 tar -zxvf openshift-origin-server-*.tar.gz --strip-components 1
 rm -f openshift-origin-server-*.tar.gz
 
